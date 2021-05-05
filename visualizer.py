@@ -5,7 +5,7 @@ from ai import AI
 screen = pygame.display.set_mode((600,600))
 pygame.display.set_caption('Maze Solver')
 
-rows = cols = 600
+rows = cols = 50
 res = screen.get_height()//rows
 
 def main():
